@@ -5,18 +5,18 @@ import csv
 # Set path for csv file
 election_data_csv = os.path.join('Resources', 'election_data.csv')
 
-# Function to perform electino result
+# Function to perform election result
 def election_result(election_data):
     
     total_vote = 0                      # Variable to store total number of votes
-    charles_vote = 0                    # Variable to store number of votes for Charles
+    charles_vote = 0                    # Variable to store the number of votes for Charles
     diana_vote = 0                      # Variable to store the number of votes for Diana
     raymon_vote = 0                     # Variable to store the number of votes for Raymon
     charles_percent = 0                 # Variable to store the percentage of votes for Charles
     diana_percent = 0                   # Variable to store the percentage of votes for Diana
     raymon_percent = 0                  # Variable to store the percentage of votes for Raymon
-    candidate_percent = []              # Dictionary to store the percentage for each candidate      
-    winner_candidate = []               # Varianbe to store the name of the winner candidate
+    candidate_percent = []              # Dictionary to store the percentage of vote for each candidate      
+    winner_candidate = []               # Variable to store the name of the winner candidate
     
     # Open csv file 
     with open(election_data, 'r') as csvfile:
