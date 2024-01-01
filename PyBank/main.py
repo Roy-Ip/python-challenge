@@ -38,7 +38,7 @@ total_month, net_total, average_change, increase_month, decrease_month, greatest
 
 
 analysis_result = f"""
-Financial Analisis
+Financial Analysis
 --------------------------------------
 Total Months: {total_month}
 Total: ${net_total}
