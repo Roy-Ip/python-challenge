@@ -55,7 +55,7 @@ def election_result(election_data):
     # Return the election result
     return total_vote, charles_vote, diana_vote, raymon_vote, charles_percent, diana_percent, raymon_percent, candidate_percent, winner_candidate
 
-# Get the financial analysis result from the function
+# Get the election result from the function
 total_vote, charles_vote, diana_vote, raymon_vote, charles_percent, diana_percent, raymon_percent, candidate_percent, winner_candidate = election_result(election_data_csv)
 
 # Create a text summary of the election results
